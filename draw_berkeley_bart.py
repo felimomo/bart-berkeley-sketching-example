@@ -24,8 +24,6 @@ HEIGHT = 600
 LINE_MIN_LEN = 70
 LINE_MAX_LEN = 210
 
-
-
 class Station:
     """Data record describing a single station."""
 

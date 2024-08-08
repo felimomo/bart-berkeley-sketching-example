@@ -224,7 +224,7 @@ class StationVizPresenter:
         self._sketch.pop_transform()
 
     def _get_line_length(self, max_value, count):
-        return LINE_MIN_LEN
+        return LINE_MIN_LEN + (LINE_MAX_LEN - LINE_MIN_LEN) * count / max_value
 
 
 def main():
